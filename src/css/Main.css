@@ -1,0 +1,50 @@
+#mainContainer {
+    width: 100%;
+    height: 100%;
+}
+
+#mainContainer > h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#mainGridLayout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#mainGridLayout > div {
+    background-image: url("../resources/bg-img.jpg");
+    height: 130px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    display: table;
+}
+
+#mainGridLayout > div > span {
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#mainGridLayout > div {
+    transition: 0.6s;
+}
+
+#mainGridLayout > div:hover {
+    background: linear-gradient(
+            45deg,
+            rgba(29, 236, 197, 0.5),
+            rgba(91, 14, 214, 0.5) 100%
+    );
+    transition: 0.6s;
+    transform: scale(1.25);
+}
+
+#fullDesc {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+}

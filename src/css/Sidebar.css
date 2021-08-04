@@ -1,0 +1,41 @@
+#sidebarContainer {
+    min-width: 200px;
+    max-width: 400px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255,255,255, 0.3);
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#sidebarLogoImageWrapper > h3 {
+    text-align: center;
+    font-size: 24px;
+}
+#sidebarPlainText > h3, h2 {
+    text-align: center;
+}
+
+#buttonBook {
+    font-size: 20px;
+    font-weight: bolder;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #000000;
+    transition: 0.7s;
+
+}
+
+#buttonBook:hover {
+    color: black;
+    background: linear-gradient(
+            45deg,
+            rgba(29, 236, 197, 0.5),
+            rgba(91, 14, 214, 0.5) 100%
+    );
+    transform: scale(1.05);
+    transition: 0.7s;
+}
