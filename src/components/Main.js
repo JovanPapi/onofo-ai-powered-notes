@@ -34,7 +34,7 @@ const Main = () => {
     }
     return (
         <div id="mainContainer">
-            <h1>Here are some main features of the AI-powered notes platform and application...</h1>
+            <h1>These are some of the main features of the AI-powered notes platform and application</h1>
             <div style={{padding: "10px", paddingTop: "50px"}}>
                 <h4 style={{padding: "20px"}}>Hover over the boxes...</h4>
                 <div id="mainGridLayout">
